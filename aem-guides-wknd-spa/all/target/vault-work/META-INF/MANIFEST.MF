@@ -1,0 +1,14 @@
+Manifest-Version: 1.0
+Created-By: Apache Maven
+Built-By: vaupo
+Build-Jdk: 17.0.4.1
+Implementation-Title: WKND SPA React - All
+Implementation-Version: 1.0.3-SNAPSHOT
+Implementation-Vendor-Id: com.adobe.aem.guides
+Content-Package-Roots: /apps/wknd-spa-react-packages,/apps/wknd-spa-reac
+ t-vendor-packages
+Content-Package-Description: All content package for WKND SPA React
+Content-Package-Id: com.adobe.aem.guides:wknd-spa-react.all:1.0.3-SNAPSH
+ OT
+Content-Package-Type: application
+

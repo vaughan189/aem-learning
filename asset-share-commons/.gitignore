@@ -1,0 +1,42 @@
+vlt
+.classpath
+.project
+.settings/
+target/
+*/bin/
+.DS_Store
+.pmd
+lib/*
+.repo
+MANIFEST.MF
+
+#Intellij
+.idea/
+*.iml
+
+#VS Code
+.vscode
+
+#gh-pages
+.sass-cache/
+_site
+.jekyll-metadata
+
+#vlt directories
+content/src/main/content/jcr_root/.content.xml
+content/src/main/content/jcr_root/apps/.content.xml
+content/src/main/content/jcr_root/etc/.content.xml
+content/src/main/content/jcr_root/etc/designs/.content.xml
+content/src/main/content/jcr_root/etc/clientlibs/.content.xml
+
+ui.tests/node_modules/
+
+#VS Code
+.history
+
+#Jenv
+.java-version
+
+# Maven
+*.asc
+*.versionsBackup

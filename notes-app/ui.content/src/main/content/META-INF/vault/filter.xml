@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/conf/notes-app" mode="merge"/>
+    <filter root="/content/notes-app" mode="merge"/>
+    <filter root="/content/dam/notes-app/asset.jpg" mode="merge"/>
+    <filter root="/content/experience-fragments/notes-app" mode="merge"/>
+</workspaceFilter>

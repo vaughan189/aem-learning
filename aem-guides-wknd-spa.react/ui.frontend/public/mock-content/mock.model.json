@@ -1,0 +1,543 @@
+{
+    "brandSlug": "",
+    "componentsResourceTypes": [
+      "wcm/foundation/components/responsivegrid",
+      "nt:unstructured",
+      "wknd-spa-react/components/spa"
+    ],
+    "cssClassNames": "spa page basicpage",
+    "title": "en",
+    "designPath": "/libs/settings/wcm/designs/default",
+    "templateName": "spa-app-template",
+    "language": "en",
+    ":children": {
+      "/content/wknd-spa-react/us/en/home": {
+        "brandSlug": "",
+        "componentsResourceTypes": [
+          "wknd-spa-react/components/experiencefragment",
+          "wknd-spa-react/components/search",
+          "nt:unstructured",
+          "wknd-spa-react/components/navigation",
+          "wknd-spa-react/components/languagenavigation",
+          "nt:file",
+          "wknd-spa-react/components/separator",
+          "wknd-spa-react/components/xfpage",
+          "nt:folder",
+          "wknd-spa-react/components/container",
+          "wknd-spa-react/components/text",
+          "wcm/foundation/components/responsivegrid",
+          "nt:resource",
+          "wknd-spa-react/components/page"
+        ],
+        "cssClassNames": "spa page basicpage",
+        "lastModifiedDate": 1667389952552,
+        "title": "WKND SPA React Home Page",
+        "designPath": "/libs/settings/wcm/designs/default",
+        "templateName": "spa-page-template",
+        "language": "en",
+        ":path": "/content/wknd-spa-react/us/en/home",
+        ":hierarchyType": "page",
+        ":items": {
+          "root": {
+            "columnClassNames": {
+              "experiencefragment-header": "aem-GridColumn aem-GridColumn--default--12",
+              "responsivegrid": "aem-GridColumn aem-GridColumn--default--12",
+              "experiencefragment-footer": "aem-GridColumn aem-GridColumn--default--12"
+            },
+            "gridClassNames": "aem-Grid aem-Grid--12 aem-Grid--default--12",
+            "columnCount": 12,
+            "allowedComponents": {
+              "components": [
+                {
+                  "path": "/conf/wknd-spa-react/settings/wcm/templates/spa-page-template/structure/jcr:content/root/wcm/foundation/components/responsivegrid",
+                  "title": "Layout Container"
+                },
+                {
+                  "path": "/conf/wknd-spa-react/settings/wcm/templates/spa-page-template/structure/jcr:content/root/wknd-spa-react/components/text",
+                  "title": "Text"
+                }
+              ],
+              "applicable": false
+            },
+            ":items": {
+              "experiencefragment-header": {
+                "id": "experiencefragment-df1e9e0abf",
+                "localizedFragmentVariationPath": "/content/experience-fragments/wknd-spa-react/us/en/site/header/master/jcr:content",
+                "configured": true,
+                "dataLayer": {
+                  "experiencefragment-df1e9e0abf": {
+                    "@type": "wknd-spa-react/components/experiencefragment"
+                  }
+                },
+                ":items": {
+                  "root": {
+                    "columnClassNames": {
+                      "navigation": "aem-GridColumn aem-GridColumn--default--12",
+                      "search": "aem-GridColumn aem-GridColumn--default--12",
+                      "languagenavigation": "aem-GridColumn aem-GridColumn--default--12",
+                      "logo": "aem-GridColumn aem-GridColumn--default--12"
+                    },
+                    "gridClassNames": "aem-Grid aem-Grid--12 aem-Grid--default--12",
+                    "columnCount": 12,
+                    "allowedComponents": {
+                      "components": [
+                        {
+                          "path": "/content/experience-fragments/wknd-spa-react/us/en/site/header/master/jcr:content/root/wknd-spa-react/components/accordion",
+                          "title": "Accordion"
+                        },
+                        {
+                          "path": "/content/experience-fragments/wknd-spa-react/us/en/site/header/master/jcr:content/root/wknd-spa-react/components/breadcrumb",
+                          "title": "Breadcrumb"
+                        },
+                        {
+                          "path": "/content/experience-fragments/wknd-spa-react/us/en/site/header/master/jcr:content/root/wknd-spa-react/components/button",
+                          "title": "Button"
+                        },
+                        {
+                          "path": "/content/experience-fragments/wknd-spa-react/us/en/site/header/master/jcr:content/root/wknd-spa-react/components/carousel",
+                          "title": "Carousel"
+                        },
+                        {
+                          "path": "/content/experience-fragments/wknd-spa-react/us/en/site/header/master/jcr:content/root/wknd-spa-react/components/container",
+                          "title": "Container"
+                        },
+                        {
+                          "path": "/content/experience-fragments/wknd-spa-react/us/en/site/header/master/jcr:content/root/wknd-spa-react/components/contentfragment",
+                          "title": "Content Fragment"
+                        },
+                        {
+                          "path": "/content/experience-fragments/wknd-spa-react/us/en/site/header/master/jcr:content/root/wknd-spa-react/components/contentfragmentlist",
+                          "title": "Content Fragment List"
+                        },
+                        {
+                          "path": "/content/experience-fragments/wknd-spa-react/us/en/site/header/master/jcr:content/root/wknd-spa-react/components/download",
+                          "title": "Download"
+                        },
+                        {
+                          "path": "/content/experience-fragments/wknd-spa-react/us/en/site/header/master/jcr:content/root/wknd-spa-react/components/embed",
+                          "title": "Embed"
+                        },
+                        {
+                          "path": "/content/experience-fragments/wknd-spa-react/us/en/site/header/master/jcr:content/root/wknd-spa-react/components/experiencefragment",
+                          "title": "Experience Fragment"
+                        },
+                        {
+                          "path": "/content/experience-fragments/wknd-spa-react/us/en/site/header/master/jcr:content/root/wknd-spa-react/components/helloworld",
+                          "title": "Hello World Component"
+                        },
+                        {
+                          "path": "/content/experience-fragments/wknd-spa-react/us/en/site/header/master/jcr:content/root/wknd-spa-react/components/image",
+                          "title": "Image"
+                        },
+                        {
+                          "path": "/content/experience-fragments/wknd-spa-react/us/en/site/header/master/jcr:content/root/wknd-spa-react/components/list",
+                          "title": "List"
+                        },
+                        {
+                          "path": "/content/experience-fragments/wknd-spa-react/us/en/site/header/master/jcr:content/root/wknd-spa-react/components/pdfviewer",
+                          "title": "PDF Viewer"
+                        },
+                        {
+                          "path": "/content/experience-fragments/wknd-spa-react/us/en/site/header/master/jcr:content/root/wknd-spa-react/components/progressbar",
+                          "title": "Progress Bar"
+                        },
+                        {
+                          "path": "/content/experience-fragments/wknd-spa-react/us/en/site/header/master/jcr:content/root/wknd-spa-react/components/separator",
+                          "title": "Separator"
+                        },
+                        {
+                          "path": "/content/experience-fragments/wknd-spa-react/us/en/site/header/master/jcr:content/root/wknd-spa-react/components/tabs",
+                          "title": "Tabs"
+                        },
+                        {
+                          "path": "/content/experience-fragments/wknd-spa-react/us/en/site/header/master/jcr:content/root/wknd-spa-react/components/teaser",
+                          "title": "Teaser"
+                        },
+                        {
+                          "path": "/content/experience-fragments/wknd-spa-react/us/en/site/header/master/jcr:content/root/wknd-spa-react/components/text",
+                          "title": "Text"
+                        },
+                        {
+                          "path": "/content/experience-fragments/wknd-spa-react/us/en/site/header/master/jcr:content/root/wknd-spa-react/components/title",
+                          "title": "Title"
+                        },
+                        {
+                          "path": "/content/experience-fragments/wknd-spa-react/us/en/site/header/master/jcr:content/root/wknd-spa-react/components/form/container",
+                          "title": "Core Form Container"
+                        }
+                      ],
+                      "applicable": false
+                    },
+                    ":items": {
+                      "navigation": {
+                        "id": "navigation-93674ad069",
+                        "items": [
+                          {
+                            "id": "navigation-93674ad069-item-7951fb341c",
+                            "path": "/content/wknd-spa-react/us/en",
+                            "link": {
+                              "valid": true,
+                              "url": "/content/wknd-spa-react/us/en.html"
+                            },
+                            "children": [
+                              {
+                                "id": "navigation-93674ad069-item-9da8286b70",
+                                "path": "/content/wknd-spa-react/us/en/home",
+                                "link": {
+                                  "valid": true,
+                                  "url": "/content/wknd-spa-react/us/en/home.html"
+                                },
+                                "children": [
+                                  
+                                ],
+                                "level": 1,
+                                "active": true,
+                                "current": true,
+                                "title": "WKND SPA React Home Page",
+                                "lastModified": 1667389952552,
+                                ":type": "wknd-spa-react/components/page",
+                                "dataLayer": {
+                                  "navigation-93674ad069-item-9da8286b70": {
+                                    "@type": "wknd-spa-react/components/navigation/item",
+                                    "repo:modifyDate": "2022-11-02T11:38:10Z",
+                                    "dc:title": "WKND SPA React Home Page",
+                                    "xdm:linkURL": "/content/wknd-spa-react/us/en/home.html"
+                                  }
+                                }
+                              }
+                            ],
+                            "level": 0,
+                            "active": true,
+                            "current": false,
+                            "title": "WKND SPA React",
+                            ":type": "wknd-spa-react/components/spa",
+                            "dataLayer": {
+                              "navigation-93674ad069-item-7951fb341c": {
+                                "@type": "wknd-spa-react/components/navigation/item",
+                                "repo:modifyDate": "2022-11-02T11:38:10Z",
+                                "dc:title": "WKND SPA React",
+                                "xdm:linkURL": "/content/wknd-spa-react/us/en.html"
+                              }
+                            }
+                          }
+                        ],
+                        ":type": "wknd-spa-react/components/navigation",
+                        "dataLayer": {
+                          "navigation-93674ad069": {
+                            "@type": "wknd-spa-react/components/navigation"
+                          }
+                        }
+                      },
+                      "languagenavigation": {
+                        "id": "languagenavigation-319e9fbb20",
+                        "items": [
+                          {
+                            "id": "languagenavigation-319e9fbb20-item-9da8286b70",
+                            "path": "/content/wknd-spa-react/us/en/home",
+                            "link": {
+                              "valid": true,
+                              "url": "/content/wknd-spa-react/us/en/home.html"
+                            },
+                            "children": [
+                              {
+                                "id": "languagenavigation-319e9fbb20-item-9da8286b70",
+                                "path": "/content/wknd-spa-react/us/en/home",
+                                "link": {
+                                  "valid": true,
+                                  "url": "/content/wknd-spa-react/us/en/home.html"
+                                },
+                                "children": [
+                                  
+                                ],
+                                "level": 1,
+                                "active": true,
+                                "current": true,
+                                "title": "WKND SPA React Home Page",
+                                "locale": "en",
+                                "country": "",
+                                "language": "en",
+                                "lastModified": 1667389952552,
+                                ":type": "wknd-spa-react/components/page",
+                                "dataLayer": {
+                                  "languagenavigation-319e9fbb20-item-9da8286b70": {
+                                    "@type": "wknd-spa-react/components/languagenavigation/item",
+                                    "repo:modifyDate": "2022-11-02T11:38:10Z",
+                                    "dc:title": "WKND SPA React Home Page",
+                                    "xdm:linkURL": "/content/wknd-spa-react/us/en/home.html"
+                                  }
+                                }
+                              }
+                            ],
+                            "level": 0,
+                            "active": true,
+                            "current": true,
+                            "title": "en",
+                            "locale": "en",
+                            "country": "",
+                            "language": "en",
+                            "lastModified": 1667389952552,
+                            ":type": "wknd-spa-react/components/page",
+                            "dataLayer": {
+                              "languagenavigation-319e9fbb20-item-9da8286b70": {
+                                "@type": "wknd-spa-react/components/languagenavigation/item",
+                                "repo:modifyDate": "2022-11-02T11:38:10Z",
+                                "dc:title": "en",
+                                "xdm:linkURL": "/content/wknd-spa-react/us/en/home.html"
+                              }
+                            }
+                          }
+                        ],
+                        ":type": "wknd-spa-react/components/languagenavigation",
+                        "dataLayer": {
+                          "languagenavigation-319e9fbb20": {
+                            "@type": "wknd-spa-react/components/languagenavigation"
+                          }
+                        }
+                      },
+                      "search": {
+                        "id": "search-f7fdbad8ad",
+                        "relativePath": "/jcr:content/root/search",
+                        "resultsSize": 10,
+                        "searchTermMinimumLength": 3,
+                        "searchRootPagePath": "/content/wknd-spa-react/us",
+                        ":type": "wknd-spa-react/components/search",
+                        "dataLayer": {
+                          "search-f7fdbad8ad": {
+                            "@type": "wknd-spa-react/components/search"
+                          }
+                        }
+                      },
+                      "logo": {
+                        ":type": "nt:folder"
+                      }
+                    },
+                    ":itemsOrder": [
+                      "navigation",
+                      "languagenavigation",
+                      "search",
+                      "logo"
+                    ],
+                    ":type": "wknd-spa-react/components/container"
+                  }
+                },
+                ":itemsOrder": [
+                  "root"
+                ],
+                "classNames": "aem-xf",
+                ":type": "wknd-spa-react/components/experiencefragment"
+              },
+              "responsivegrid": {
+                "columnClassNames": {
+                  "text": "aem-GridColumn aem-GridColumn--default--12",
+                  "text_1772310188": "aem-GridColumn aem-GridColumn--default--12"
+                },
+                "gridClassNames": "aem-Grid aem-Grid--12 aem-Grid--default--12",
+                "columnCount": 12,
+                "allowedComponents": {
+                  "components": [
+                    {
+                      "path": "/content/wknd-spa-react/us/en/home/jcr:content/root/responsivegrid/wcm/foundation/components/responsivegrid",
+                      "title": "Layout Container"
+                    },
+                    {
+                      "path": "/content/wknd-spa-react/us/en/home/jcr:content/root/responsivegrid/wknd-spa-react/components/text",
+                      "title": "Text"
+                    }
+                  ],
+                  "applicable": false
+                },
+                ":items": {
+                  "text": {
+                    "id": "text-a647cec03a",
+                    "text": "<p>Hello World! Updated content</p>\r\n",
+                    "richText": true,
+                    ":type": "wknd-spa-react/components/text",
+                    "dataLayer": {
+                      "text-a647cec03a": {
+                        "@type": "wknd-spa-react/components/text",
+                        "repo:modifyDate": "2022-11-02T11:48:40Z",
+                        "xdm:text": "<p>Hello World! Updated content</p>\r\n"
+                      }
+                    }
+                  },
+                  "text_1772310188": {
+                    "id": "text-4f26247c93",
+                    "text": "<p>Helloasfasdasdasdasd</p>\r\n",
+                    "richText": true,
+                    ":type": "wknd-spa-react/components/text",
+                    "dataLayer": {
+                      "text-4f26247c93": {
+                        "@type": "wknd-spa-react/components/text",
+                        "repo:modifyDate": "2022-11-02T11:52:32Z",
+                        "xdm:text": "<p>Helloasfasdasdasdasd</p>\r\n"
+                      }
+                    }
+                  }
+                },
+                ":itemsOrder": [
+                  "text",
+                  "text_1772310188"
+                ],
+                ":type": "wcm/foundation/components/responsivegrid"
+              },
+              "experiencefragment-footer": {
+                "id": "experiencefragment-90b12f0af4",
+                "localizedFragmentVariationPath": "/content/experience-fragments/wknd-spa-react/us/en/site/footer/master/jcr:content",
+                "configured": true,
+                "dataLayer": {
+                  "experiencefragment-90b12f0af4": {
+                    "@type": "wknd-spa-react/components/experiencefragment"
+                  }
+                },
+                ":items": {
+                  "root": {
+                    "columnClassNames": {
+                      "text": "aem-GridColumn aem-GridColumn--default--12",
+                      "separator": "aem-GridColumn aem-GridColumn--default--12"
+                    },
+                    "gridClassNames": "aem-Grid aem-Grid--12 aem-Grid--default--12",
+                    "columnCount": 12,
+                    "allowedComponents": {
+                      "components": [
+                        {
+                          "path": "/content/experience-fragments/wknd-spa-react/us/en/site/footer/master/jcr:content/root/wknd-spa-react/components/accordion",
+                          "title": "Accordion"
+                        },
+                        {
+                          "path": "/content/experience-fragments/wknd-spa-react/us/en/site/footer/master/jcr:content/root/wknd-spa-react/components/breadcrumb",
+                          "title": "Breadcrumb"
+                        },
+                        {
+                          "path": "/content/experience-fragments/wknd-spa-react/us/en/site/footer/master/jcr:content/root/wknd-spa-react/components/button",
+                          "title": "Button"
+                        },
+                        {
+                          "path": "/content/experience-fragments/wknd-spa-react/us/en/site/footer/master/jcr:content/root/wknd-spa-react/components/carousel",
+                          "title": "Carousel"
+                        },
+                        {
+                          "path": "/content/experience-fragments/wknd-spa-react/us/en/site/footer/master/jcr:content/root/wknd-spa-react/components/container",
+                          "title": "Container"
+                        },
+                        {
+                          "path": "/content/experience-fragments/wknd-spa-react/us/en/site/footer/master/jcr:content/root/wknd-spa-react/components/contentfragment",
+                          "title": "Content Fragment"
+                        },
+                        {
+                          "path": "/content/experience-fragments/wknd-spa-react/us/en/site/footer/master/jcr:content/root/wknd-spa-react/components/contentfragmentlist",
+                          "title": "Content Fragment List"
+                        },
+                        {
+                          "path": "/content/experience-fragments/wknd-spa-react/us/en/site/footer/master/jcr:content/root/wknd-spa-react/components/download",
+                          "title": "Download"
+                        },
+                        {
+                          "path": "/content/experience-fragments/wknd-spa-react/us/en/site/footer/master/jcr:content/root/wknd-spa-react/components/embed",
+                          "title": "Embed"
+                        },
+                        {
+                          "path": "/content/experience-fragments/wknd-spa-react/us/en/site/footer/master/jcr:content/root/wknd-spa-react/components/experiencefragment",
+                          "title": "Experience Fragment"
+                        },
+                        {
+                          "path": "/content/experience-fragments/wknd-spa-react/us/en/site/footer/master/jcr:content/root/wknd-spa-react/components/helloworld",
+                          "title": "Hello World Component"
+                        },
+                        {
+                          "path": "/content/experience-fragments/wknd-spa-react/us/en/site/footer/master/jcr:content/root/wknd-spa-react/components/image",
+                          "title": "Image"
+                        },
+                        {
+                          "path": "/content/experience-fragments/wknd-spa-react/us/en/site/footer/master/jcr:content/root/wknd-spa-react/components/list",
+                          "title": "List"
+                        },
+                        {
+                          "path": "/content/experience-fragments/wknd-spa-react/us/en/site/footer/master/jcr:content/root/wknd-spa-react/components/pdfviewer",
+                          "title": "PDF Viewer"
+                        },
+                        {
+                          "path": "/content/experience-fragments/wknd-spa-react/us/en/site/footer/master/jcr:content/root/wknd-spa-react/components/progressbar",
+                          "title": "Progress Bar"
+                        },
+                        {
+                          "path": "/content/experience-fragments/wknd-spa-react/us/en/site/footer/master/jcr:content/root/wknd-spa-react/components/separator",
+                          "title": "Separator"
+                        },
+                        {
+                          "path": "/content/experience-fragments/wknd-spa-react/us/en/site/footer/master/jcr:content/root/wknd-spa-react/components/tabs",
+                          "title": "Tabs"
+                        },
+                        {
+                          "path": "/content/experience-fragments/wknd-spa-react/us/en/site/footer/master/jcr:content/root/wknd-spa-react/components/teaser",
+                          "title": "Teaser"
+                        },
+                        {
+                          "path": "/content/experience-fragments/wknd-spa-react/us/en/site/footer/master/jcr:content/root/wknd-spa-react/components/text",
+                          "title": "Text"
+                        },
+                        {
+                          "path": "/content/experience-fragments/wknd-spa-react/us/en/site/footer/master/jcr:content/root/wknd-spa-react/components/title",
+                          "title": "Title"
+                        },
+                        {
+                          "path": "/content/experience-fragments/wknd-spa-react/us/en/site/footer/master/jcr:content/root/wknd-spa-react/components/form/container",
+                          "title": "Core Form Container"
+                        }
+                      ],
+                      "applicable": false
+                    },
+                    ":items": {
+                      "separator": {
+                        ":type": "wknd-spa-react/components/separator"
+                      },
+                      "text": {
+                        "id": "text-4c3492e4ef",
+                        "text": "<p>Copyright 2022, WKND SPA React.&nbsp;All rights reserved.</p>\r\n<p>345 Park Avenue,&nbsp;San Jose, CA 95110-2704, USA</p>\r\n",
+                        "richText": true,
+                        ":type": "wknd-spa-react/components/text",
+                        "dataLayer": {
+                          "text-4c3492e4ef": {
+                            "@type": "wknd-spa-react/components/text",
+                            "xdm:text": "<p>Copyright 2022, WKND SPA React.&nbsp;All rights reserved.</p>\r\n<p>345 Park Avenue,&nbsp;San Jose, CA 95110-2704, USA</p>\r\n"
+                          }
+                        }
+                      }
+                    },
+                    ":itemsOrder": [
+                      "separator",
+                      "text"
+                    ],
+                    ":type": "wknd-spa-react/components/container"
+                  }
+                },
+                ":itemsOrder": [
+                  "root"
+                ],
+                "classNames": "aem-xf",
+                ":type": "wknd-spa-react/components/experiencefragment"
+              }
+            },
+            ":itemsOrder": [
+              "experiencefragment-header",
+              "responsivegrid",
+              "experiencefragment-footer"
+            ],
+            ":type": "wcm/foundation/components/responsivegrid"
+          }
+        },
+        ":itemsOrder": [
+          "root"
+        ],
+        ":type": "wknd-spa-react/components/page"
+      }
+    },
+    ":path": "/content/wknd-spa-react/us/en",
+    ":hierarchyType": "page",
+    ":items": {
+      
+    },
+    ":itemsOrder": [
+      
+    ],
+    ":type": "wknd-spa-react/components/spa"
+  }

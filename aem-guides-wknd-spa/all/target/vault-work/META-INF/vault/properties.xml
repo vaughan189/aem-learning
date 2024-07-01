@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<comment>WKND SPA React - All</comment>
+<entry key="allowIndexDefinitions">false</entry>
+<entry key="createdBy">vaupo</entry>
+<entry key="created">2022-11-15T16:56:42.027+05:30</entry>
+<entry key="groupId">com.adobe.aem.guides</entry>
+<entry key="name">wknd-spa-react.all</entry>
+<entry key="description">All content package for WKND SPA React</entry>
+<entry key="artifactId">wknd-spa-react.all</entry>
+<entry key="version">1.0.3-SNAPSHOT</entry>
+<entry key="packageType">application</entry>
+<entry key="requiresRoot">false</entry>
+<entry key="group">com.adobe.aem.guides</entry>
+</properties>

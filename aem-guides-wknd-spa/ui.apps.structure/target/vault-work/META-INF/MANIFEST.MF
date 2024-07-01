@@ -1,0 +1,18 @@
+Manifest-Version: 1.0
+Created-By: Apache Maven
+Built-By: vaupo
+Build-Jdk: 17.0.4.1
+Implementation-Title: WKND SPA React - Repository Structure Package
+Implementation-Version: 1.0.3-SNAPSHOT
+Implementation-Vendor-Id: com.adobe.aem.guides
+Content-Package-Roots: /apps,/apps/cq,/apps/dam,/apps/msm,/apps/settings
+ ,/apps/sling,/apps/wcm
+Content-Package-Description: Empty package that defines the structure of
+  the Adobe Experience Manager repository the Code packages in this proj
+ ect deploy into.
+        Any roots in the Code packages of this project
+  should have their parent enumerated in the Filters list below.
+Content-Package-Id: com.adobe.aem.guides:wknd-spa-react.ui.apps.structur
+ e:1.0.3-SNAPSHOT
+Content-Package-Type: application
+

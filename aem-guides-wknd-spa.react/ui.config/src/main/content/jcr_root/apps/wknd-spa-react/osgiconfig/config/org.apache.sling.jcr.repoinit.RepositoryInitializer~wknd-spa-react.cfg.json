@@ -1,0 +1,7 @@
+{
+    "scripts": [
+        "create path (sling:OrderedFolder) /content/dam/wknd-spa-react",
+        "create path (nt:unstructured) /content/dam/wknd-spa-react/jcr:content",
+        "set properties on /content/dam/wknd-spa-react/jcr:content\n  set cq:conf{String} to /conf/wknd-spa-react\n  set jcr:title{String} to \"WKND SPA React\"\nend"
+    ]
+}

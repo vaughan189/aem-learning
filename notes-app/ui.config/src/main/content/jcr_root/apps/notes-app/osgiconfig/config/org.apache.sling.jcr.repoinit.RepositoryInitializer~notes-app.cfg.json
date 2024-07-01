@@ -1,0 +1,7 @@
+{
+    "scripts": [
+        "create path (sling:OrderedFolder) /content/dam/notes-app",
+        "create path (nt:unstructured) /content/dam/notes-app/jcr:content",
+        "set properties on /content/dam/notes-app/jcr:content\n  set cq:conf{String} to /conf/notes-app\n  set jcr:title{String} to \"Notes App\"\nend"
+    ]
+}
